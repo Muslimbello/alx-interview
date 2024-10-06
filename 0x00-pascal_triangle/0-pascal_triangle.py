@@ -1,5 +1,8 @@
+#!/usr/bin/python3
+"""	 This code is for Pascal's Triangle	"""
 def pascal_triangle(n):
-    pascal = [[1]]
+    # Return an empty list if n is less than or equal to 0
+    pascal = [[1]] # First row
     if n <= 0:
         return []
     if n > 1:
