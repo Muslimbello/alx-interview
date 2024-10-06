@@ -1,9 +1,7 @@
 def pascal_triangle(n):
-    if n == 0:
-        return []
-
     pascal = [[1]]
-
+    if n <= 0:
+        return []
     if n > 1:
         pascal.append([1, 1])
 
